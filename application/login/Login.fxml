@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="250.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.login.LoginController">
+   <children>
+      <GridPane layoutX="43.0" layoutY="28.0" prefHeight="350.0" prefWidth="179.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="-40.0" AnchorPane.rightAnchor="-40.0" AnchorPane.topAnchor="20.0">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Login" GridPane.columnIndex="1" GridPane.halignment="CENTER" />
+            <TextField fx:id="textBenutername" promptText="Benutzername" style="-fx-background-radius: 5;" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
+            <PasswordField fx:id="textPasswort" promptText="Passwort" style="-fx-background-radius: 5;" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Button fx:id="loginButton" mnemonicParsing="false" onAction="#buttonLogin" prefHeight="30.0" prefWidth="90.0" style="-fx-background-radius: 5;" text="Anmelden" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="6" />
+            <Button fx:id="schliessenButton" mnemonicParsing="false" onAction="#buttonSchliessen" prefHeight="30.0" prefWidth="90.0" style="-fx-background-radius: 5;" text="Schließen" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="7" />
+            <Text fx:id="nichtRegistriert" fill="#545454" onMouseEntered="#nichtRegistriertBtn" onMouseExited="#nichtRegistriertBtnExit" strokeType="OUTSIDE" strokeWidth="0.0" text="Nicht registriert?" underline="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="9">
+               <font>
+                  <Font size="11.0" />
+               </font>
+            </Text>
+            <Text fx:id="info" fill="#949494" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="107.69736862182617" GridPane.columnIndex="1" GridPane.rowIndex="4">
+               <font>
+                  <Font name="Calibri" size="12.0" />
+               </font></Text>
+         </children>
+      </GridPane>
+   </children>
+</AnchorPane>

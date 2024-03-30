@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.register.RegisterController">
+   <children>
+      <Button fx:id="zurueck" layoutX="88.0" layoutY="515.0" mnemonicParsing="false" onAction="#zurueckButton" text="Zurück" />
+      <Button fx:id="registrieren" layoutX="190.0" layoutY="515.0" mnemonicParsing="false" onAction="#benutzerAnlegen" text="Registrieren" />
+      <CheckBox fx:id="admin" layoutX="179.0" layoutY="408.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="70.0" text="Admin" />
+      <TextField fx:id="vorname" layoutX="101.0" layoutY="29.0" promptText="Vorname" />
+      <TextField fx:id="nachname" layoutX="101.0" layoutY="67.0" promptText="Nachname" />
+      <TextField fx:id="plz" layoutX="100.0" layoutY="107.0" promptText="Postleitzahl" />
+      <TextField fx:id="wohnort" layoutX="100.0" layoutY="142.0" promptText="Wohnort" />
+      <TextField fx:id="strasse" layoutX="101.0" layoutY="178.0" promptText="Straße" />
+      <TextField fx:id="telefon" layoutX="101.0" layoutY="210.0" promptText="Telefonnummer" />
+      <TextField fx:id="email" layoutX="101.0" layoutY="249.0" promptText="E-Mail" />
+      <TextField fx:id="benutzername" layoutX="101.0" layoutY="286.0" promptText="Benutzername" />
+      <Text fx:id="info" fill="RED" layoutY="480.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="350.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+      <PasswordField fx:id="passwort" layoutX="100.0" layoutY="321.0" promptText="Passwort" />
+      <PasswordField fx:id="passwortbes" layoutX="100.0" layoutY="357.0" promptText="Passwort wiederholen" />
+   </children>
+</AnchorPane>
