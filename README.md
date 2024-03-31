@@ -2,18 +2,14 @@
 # Projekt: JavaFX-CRUD-Anwendung
 
 ## Beschreibung
-Die Kugelbahn-Simulation ist ein JavaFX-Projekt, das eine realistische Simulation einer kleinen Kugelbahn ohne die Verwendung einer dedizierten Physik-Engine bietet. 
+Dieses Projekt ist eine JavaFX-Anwendung, die grundlegende CRUD-Operationen (Create, Read, Update, Delete) für die Verwaltung von Produkten darstellt.
 
 ## Eigenschaften
-•	Realistische Physik: Die Kugeln bewegen sich gemäß den Gesetzen der Schwerkraft und kinetischen Energie.  
-•	Anpassbare Kugeln: Eigene Kugeln können erstellt und diese auf der Kugelbahn platziert werden.  
-•	Bearbeitungsmodus: Durch den Bearbeitungsmodus können vorhandene Kugeln umplatziert und Kugelbahn-Elemente gedreht werden, um die Simulation anzupassen.  
-•	Anpassbare Gravitation und Wind: Die Simulation ermöglicht die Anpassung von Gravitation und Wind, um verschiedene Szenarien zu simulieren und die Effekte auf die Kugeln zu beobachten.  
-•	Flexible Simulation: Die Simulation kann jederzeit gestartet und gestoppt werden, um Änderungen vorzunehmen oder das Verhalten der Kugeln zu analysieren.  
-•	Visuelle Hilfsmittel: Tangential- und Linienvektoren können angezeigt werden, um ein besseres Verständnis der Bewegung der Kugeln zu ermöglichen.  
+•	Login/Registrierung mit der Möglichkeit, das Passwort zu ändern.  
+•	Anlegen neuer Produkte mit Angabe von Name, Preis, Menge und Kategorie. Bearbeiten und Löschen vorhandener Produkte.  
+•	Sortierung vorhandener Produkte in auf- und absteigender Reihenfolge nach ID, Name, Preis, Menge und Kategorie.  
 
 ## Infos
-
 • Java Version 15
 •	Eclipse Version 2020-12
 •	Scene Builder Version 2
