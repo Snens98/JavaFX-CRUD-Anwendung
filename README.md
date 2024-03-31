@@ -2,7 +2,8 @@
 # Projekt: JavaFX-CRUD-Anwendung
 
 ## Beschreibung
-Dieses Projekt ist eine JavaFX-Anwendung, die grundlegende CRUD-Operationen (Create, Read, Update, Delete) für die Verwaltung von Produkten darstellt.
+Eine kleine simple JavaFX-CRUD-Anwendung  für die Verwaltung von Produkten. Verschiedene Sortieralgorithmen wurden implementiert. Daten werden hingegen Lokal gespeichert.  
+Es dient ausschließlich zu Demonstrationszwecken und ist nicht für den produktiven Einsatz gedacht.
 
 ## Eigenschaften
 •	Login/Registrierung mit der Möglichkeit, das Passwort zu ändern.  
@@ -10,9 +11,9 @@ Dieses Projekt ist eine JavaFX-Anwendung, die grundlegende CRUD-Operationen (Cre
 •	Sortierung vorhandener Produkte in auf- und absteigender Reihenfolge nach ID, Name, Preis, Menge und Kategorie.  
 
 ## Infos
-• Java Version 15
-•	Eclipse Version 2020-12
-•	Scene Builder Version 2
+• Java Version 15  
+•	Eclipse Version 2020-12  
+•	Scene Builder Version 2  
 
 
 ## Bilder
