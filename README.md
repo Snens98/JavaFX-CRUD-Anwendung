@@ -14,6 +14,7 @@ Es dient ausschließlich zu Demonstrationszwecken und ist nicht für den produkt
 • Java Version 15  
 •	Eclipse Version 2020-12  
 •	Scene Builder Version 2  
+•	JavaFX-sdk-16  
 
 
 ## Bilder
