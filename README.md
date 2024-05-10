@@ -29,5 +29,5 @@ Es dient ausschließlich zu Demonstrationszwecken und ist nicht für den produkt
 
 ---
 
-Dieses Projekt war ein kleines privates Projekt. Es dient ausschließlich zu Demonstrationszwecken und ist nicht für den produktiven Einsatz gedacht.  
+Dieses Projekt dient ausschließlich zu Demonstrationszwecken und ist nicht für den produktiven Einsatz gedacht.  
 Entstanden: Mitte 2021
